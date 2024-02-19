@@ -173,5 +173,3 @@ fun Int.toIndex3d(size: Size3d) = Index3d(
     y = (this / size.width) % size.height,
     x = (this % size.width) % size.height,
 )
-
-fun Index3d.toInt(size: Size3d) = z * size.width * size.height + y * size.width + x

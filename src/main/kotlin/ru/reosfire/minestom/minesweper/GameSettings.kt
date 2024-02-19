@@ -7,6 +7,6 @@ data class GameSettings(
     val minesCount: Int
 ) {
     companion object {
-        val DEFAULT = GameSettings(Size3d(4, 5, 6), 40)
+        val DEFAULT = GameSettings(Size3d(4, 5, 6), 30)
     }
 }
